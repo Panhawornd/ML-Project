@@ -1,0 +1,39 @@
+# Python bytecode and packaging artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Model checkpoints and experiment outputs
+ml-cli/sentiment_model.joblib
+checkpoints/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+outputs/
+
+# Local caches and credentials
+.cache/
+huggingface_cache/
+.env
+.env.*
+!.env.example
+
+# Logs and operating-system files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
